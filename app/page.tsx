@@ -57,8 +57,8 @@ export default function Home() {
       <section className="py-16 border-t border-gray-800">
         <div className="max-w-4xl mx-auto grid grid-cols-3 text-center">
           <div>
-            <p className="text-3xl font-bold">1</p>
-            <p className="text-gray-500 text-sm">Major BI Project</p>
+            <p className="text-3xl font-bold">2</p>
+            <p className="text-gray-500 text-sm">Major BI Projects</p>
           </div>
           <div>
             <p className="text-3xl font-bold">40%</p>
@@ -90,7 +90,6 @@ export default function Home() {
             regional trends, and inventory optimization for business decision-making.
           </p>
 
-          {/* TABLEAU EMBED */}
           <div className="rounded-xl overflow-hidden border border-gray-700 mb-6">
             <iframe
               src="https://public.tableau.com/views/TheUnderdawggg/Dashboard1?:showVizHome=no&:embed=true"
@@ -101,11 +100,34 @@ export default function Home() {
           </div>
 
           <a
-            href="https://github.com/Suryaalluri1010/pharma-sales-dashboard"
+            href="https://github.com/coursecutters1010/pharma-sales-dashboard"
             target="_blank"
             className="text-indigo-400 hover:text-indigo-300"
           >
             View GitHub Repository →
+          </a>
+
+        </div>
+
+        {/* NEW PROJECT (ADDED) */}
+        <div className="bg-gradient-to-r from-green-500/10 to-blue-500/10 border border-gray-800 rounded-2xl p-8 mb-12 hover:scale-[1.01] transition">
+
+          <h3 className="text-2xl font-semibold mb-3">
+            Customer & Sales Intelligence Dashboard
+          </h3>
+
+          <p className="text-gray-400 mb-6 max-w-2xl">
+            Built a BI case study dashboard to analyze customer behavior, sales performance,
+            and regional trends. Helps identify business opportunities and performance gaps
+            using data-driven insights.
+          </p>
+
+          <a
+            href="https://public.tableau.com/app/profile/surya.alluri/viz/TheUnderdawggg/Dashboard1"
+            target="_blank"
+            className="text-green-400 hover:text-green-300"
+          >
+            View Live Dashboard →
           </a>
 
         </div>
@@ -204,7 +226,7 @@ export default function Home() {
         </p>
 
         <div className="flex justify-center gap-6 text-sm">
-          <a href="https://github.com/Suryaalluri1010" className="text-indigo-400 hover:text-indigo-300">
+          <a href="https://github.com/coursecutters1010" className="text-indigo-400 hover:text-indigo-300">
             GitHub
           </a>
           <a href="#" className="text-indigo-400 hover:text-indigo-300">
